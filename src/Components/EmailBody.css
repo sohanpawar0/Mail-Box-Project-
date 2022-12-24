@@ -1,0 +1,37 @@
+.emailbody{
+    /* top: 20; */
+    display: flex;
+    align-items: centre;
+    border-bottom: 1px solid whitesmoke;
+    /* height: 400px; */
+    /* padding: auto; */
+}
+.emailbody:hover{
+    box-shadow: 2px 2px 4px whitesmoke;
+    cursor: pointer;
+}
+.emailbody__left{
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    /* flex: 10%; */
+    /* height: 400px; */
+}
+.emailbody__middle{
+    display: flex;
+    align-items: center;
+    flex: 80%;
+    max-width: 700px;
+    /* height: 400px; */
+}
+
+.emailbody__right{
+    display: flex;
+    align-items: center;
+    flex: 60%;
+    /* height: 400px; */
+}
+.emailbody__middle__msg{
+    display:flex;
+    width: 90%;
+}
